@@ -1,12 +1,14 @@
 using FastEndpoints;
 using FastEndpoints.Swagger;
 using IotProto.Host.Extensions;
+using IotProto.Host.Integrations.MQTT.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddActorSystem();
+builder.Services.AddMqttIntegration(builder.Configuration);
 builder.Services.AddFastEndpoints();
 builder.Services.AddSwaggerDoc();
 builder.Services.AddEndpointsApiExplorer();
