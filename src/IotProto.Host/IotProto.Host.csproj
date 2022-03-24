@@ -6,6 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="3.11.0" />
+    <PackageReference Include="FastEndpoints.Security" Version="3.11.0" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="3.11.0" />
+    <PackageReference Include="FastEndpoints.Validation" Version="3.11.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.45.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Proto.Actor" Version="0.27.0" />
+    <PackageReference Include="Proto.Cluster" Version="0.27.0" />
+    <PackageReference Include="Proto.Cluster.CodeGen" Version="0.27.0" />
+    <PackageReference Include="Proto.Cluster.TestProvider" Version="0.27.0" />
+    <PackageReference Include="Proto.Remote" Version="0.27.0" />
+    <PackageReference Include="Proto.Remote.GrpcNet" Version="0.27.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
   <Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
