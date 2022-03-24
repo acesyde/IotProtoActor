@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{997D6A57-BA05-409C-9D6A-DC171DC1EFA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotProto.Host.Tests", "tests\IotProto.Host.Tests\IotProto.Host.Tests.csproj", "{217D9563-1243-48E0-88EB-40F6B4504F72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF8A5055-5DD6-4C87-B93A-985E5C97C53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotProto.Host", "src\IotProto.Host\IotProto.Host.csproj", "{5A8B9AD7-A085-4564-B502-75B05C27F571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217D9563-1243-48E0-88EB-40F6B4504F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217D9563-1243-48E0-88EB-40F6B4504F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217D9563-1243-48E0-88EB-40F6B4504F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217D9563-1243-48E0-88EB-40F6B4504F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8B9AD7-A085-4564-B502-75B05C27F571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8B9AD7-A085-4564-B502-75B05C27F571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8B9AD7-A085-4564-B502-75B05C27F571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8B9AD7-A085-4564-B502-75B05C27F571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{217D9563-1243-48E0-88EB-40F6B4504F72} = {997D6A57-BA05-409C-9D6A-DC171DC1EFA8}
+		{5A8B9AD7-A085-4564-B502-75B05C27F571} = {AF8A5055-5DD6-4C87-B93A-985E5C97C53D}
+	EndGlobalSection
+EndGlobal
