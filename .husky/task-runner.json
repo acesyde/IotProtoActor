@@ -1,19 +1,21 @@
 {
    "tasks": [
       {
-         "name": "dotnet-format-example",
+         "name": "dotnet-format",
          "command": "dotnet",
          "args": [ "dotnet-format", "--include", "${staged}" ],
          "include": [ "**/*.cs", "**/*.vb" ]
       },
       {
-         "name": "welcome-message-example",
-         "command": "bash",
-         "args": [ "-c", "echo Husky.Net is awesome!" ],
-         "windows": {
-            "command": "cmd",
-            "args": ["/c", "echo Husky.Net is awesome!" ]
-         }
+         "name": "commit-message-linter",
+         "command": "dotnet",
+         "args": [
+            "husky",
+            "exec",
+            ".husky/csx/commit-lint.csx",
+            "--args",
+            "${args}"
+         ]
       }
    ]
 }
