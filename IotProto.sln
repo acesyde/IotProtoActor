@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF8A5055-5DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotProto.Host", "src\IotProto.Host\IotProto.Host.csproj", "{5A8B9AD7-A085-4564-B502-75B05C27F571}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{5BA819B8-03D7-47FE-83E2-6181D1450A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BA819B8-03D7-47FE-83E2-6181D1450A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA819B8-03D7-47FE-83E2-6181D1450A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217D9563-1243-48E0-88EB-40F6B4504F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{217D9563-1243-48E0-88EB-40F6B4504F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217D9563-1243-48E0-88EB-40F6B4504F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
